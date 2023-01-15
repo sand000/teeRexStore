@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import ProductCard from './ProductCard'
 import SearchBar from './SearchBar'
-
+  
 
  export let getData = async() =>{
   let data = await fetch(`https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/catalogue.json`)
