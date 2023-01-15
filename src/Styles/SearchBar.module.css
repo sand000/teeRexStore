@@ -1,0 +1,139 @@
+.searchBox{
+    /* border:1px solid rgb(137, 37, 37); */
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: grey;
+}
+
+.searchBox div{
+    display: flex; 
+}
+
+.searchIcon button{
+    border:1px solid rgb(243, 240, 240);
+    width: 100%;
+    padding: 10px;
+    /* border-radius: 5px; */
+    background-color: rgb(212, 211, 211);
+}
+
+.search{
+    width: 80%;
+}
+.search input{
+    /* border:1px solid black; */
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-left: 15rem;
+    border-bottom: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(246, 240, 240);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: black;
+}
+
+.MenuBar{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 667px) {
+    
+    .searchBox{
+        margin: auto;
+        margin-top: 30px;
+        width: 70%;
+        /* margin-left: 10px; */
+    }
+    .searchBox > div{
+        margin-top: -30px;
+    }
+
+    .search input{
+        /* border:1px solid black; */
+        height: 12px;
+        width: 100%;
+        padding: 10px;
+        margin-left: -1px;
+        background-color: rgb(246, 240, 240);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        /* color: black; */
+    }
+
+    .search{
+        /* border:1px solid rgb(137, 37, 37); */
+        height: 30px;
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        /* border-bottom: grey; */
+    }
+   
+    .searchIcon button{
+        /* border:1px solid rgb(137, 37, 37); */
+        width: 100%;
+        height: 52px !important;
+        padding: 10px;
+        margin-top: 22px;
+        border-radius: 2px;
+        background-color: rgb(212, 211, 211);
+    }
+
+    .MenuBar{
+        margin-top: 20px;
+        visibility: visible;
+        /* height: 32px; */
+        /* border:1px solid rgb(137, 37, 37); */
+
+    }
+
+
+  }
+
+  @media (min-width: 668) and (max-width: 1180px) {
+    
+    .searchBox{
+        margin: auto;
+        margin-top: 30px;
+        width: 70%;
+        /* margin-left: 10px; */
+    }
+
+    .search input{
+        /* border:1px solid black; */
+        height: 32px;
+        width: 100%;
+        padding: 10px;
+        margin-left: -1px;
+        background-color: rgb(246, 240, 240);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        /* color: black; */
+    }
+
+    .search{
+        /* border:1px solid rgb(137, 37, 37); */
+        height: 30px;
+        width: 100%;
+        margin: auto;
+        /* margin-top: 30px; */
+        /* border-bottom: grey; */
+    }
+   
+    .searchIcon button{
+        /* border:1px solid rgb(137, 37, 37); */
+        width: 100%;
+        height: 32px;
+        /* padding: 10px; */
+        border-radius: 2px;
+        background-color: rgb(212, 211, 211);
+    }
+
+    
+  }
